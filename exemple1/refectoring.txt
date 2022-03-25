@@ -1,0 +1,4 @@
+linhas em brancos
+nomes estranhos
+números mágicos
+comentários

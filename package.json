@@ -1,0 +1,14 @@
+{
+  "name": "BRANAS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watch-all",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
