@@ -25,10 +25,10 @@ const isMonodigit = (cpf) => {
 }
 
 const calculeCheckDigit = (cpf, factor) =>{
-  const sum = [...cpf].reduce((previousSum, digit) => 
-    factor === 1 ?  previousSum : previousSum + (parseInt(digit) * factor--)
+  const total = [...cpf].reduce((previousSum, digit) => 
+    factor === 1 ? previousSum : previousSum + digit * factor--
   , 0)
-  const rest = sum%11;
+  const rest = total%11;
   return rest === 0 ? 2 : (11 - rest)
 }
 
